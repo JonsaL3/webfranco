@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Francisco Lozano Neira — Desarrollador Junior</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+<div class="cosmos">
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+  <div class="blob blob-c"></div>
+  <div class="blob blob-d"></div>
+  <div class="stars"></div>
+</div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<header>
+  <nav class="glass">
+    <span class="nav-name">Francisco Lozano Neira</span>
+    <div class="nav-links">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="https://www.linkedin.com/in/francisco-lozano-neira-78997a303">Linkedin</a>
+      <a href="https://github.com/franciscolozanoneira">Github</a>
+    </div>
+    <a href="#contacto" class="nav-cta">Contactar</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="nav-mobile glass" id="navMobile">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#formacion">Formación</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="https://www.linkedin.com/in/francisco-lozano-neira-78997a303">Linkedin</a>
+    <a href="https://github.com/franciscolozanoneira">Github</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <div class="hero-loc"><span class="dot"></span> Disponible · Arganda del Rey, Madrid</div>
+        <h1>Técnico superior en desarrollo,<br>con ganas de seguir creciendo.</h1>
+        <br>
+        <p class="hero-role">Técnico Superior en Desarrollo de Aplicaciones Multiplataforma. Trabajo con Java, Python, SQL y Odoo. Busco mi primer puesto como desarrollador junior para seguir aprendiendo y formándome en nuevas tecnologías.</p>
+        <div class="hero-cta">
+          <a href="#experiencia" class="btn btn-primary">Ver experiencia</a>
+          <a href="#contacto" class="btn btn-ghost">Hablemos</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-orbit">
+          <div class="ring ring-1"></div>
+          <div class="ring ring-2"></div>
+          <div class="photo-glass">
+            <img src="FOTO/IMG_1050.JPEG" alt="Francisco Lozano Neira" class="photo-img">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue"><span>Desliza</span><span class="line"></span></div>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section id="sobre-mi">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Sobre mí</h2>
+      </div>
+      <div class="about-card glass reveal">
+        <p>Me formé en Sistemas Microinformáticos y Redes, después en Desarrollo de Aplicaciones Multiplataforma, así que entiendo tanto la parte de infraestructura como la de programación.</p>
+        <p>Como auxiliar informático en ITIC360 gestioné el ERP Odoo de principio a fin: usuarios, permisos, módulos y automatizaciones que ahorraban trabajo manual al equipo. También di soporte técnico directo a clientes y participé en proyectos de desarrollo a medida.</p><div class="about-meta">
+          <div><strong>2</strong><span>experiencias en IT</span></div>
+          <div><strong>5</strong><span>lenguajes y tecnologías base</span></div>
+          <div><strong>2</strong><span>titulaciones técnicas</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section id="experiencia">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Experiencia laboral</h2>
+       <p>Tres etapas distintas que me han dado una base sólida en soporte técnico, redes y desarrollo. Desliza para ver el recorrido completo.</p>
+      </div>
+      <div class="carousel-shell reveal">
+        <div class="carousel-arrows">
+          <button class="arrow-btn" data-dir="-1" data-target="exp" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="arrow-btn" data-dir="1" data-target="exp" aria-label="Siguiente"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+        </div>
+        <div class="carousel-track" id="expTrack">
+
+          <article class="exp-card glass">
+            <div class="exp-date">02/2026 — 06/2026</div>
+            <h3>ITIC360</h3>
+            <div class="exp-role">Auxiliar Informático</div>
+            <div class="exp-loc">Madrid</div>
+            <ul>
+              <li>Gestión de usuarios en el ERP Odoo: altas, bajas, permisos y módulos.</li>
+              <li>Creación de automatizaciones y flujos internos para optimizar procesos.</li>
+              <li>Desarrollo de funcionalidades y herramientas internas para el equipo.</li>
+              <li>Soporte técnico directo a clientes y resolución de incidencias.</li>
+              <li>Participación activa en proyectos de desarrollo para clientes.</li>
+            </ul>
+          </article>
+
+          <article class="exp-card glass">
+            <div class="exp-date">04/2024 — 07/2024</div>
+            <h3>Cil Marketing Directo, S.L.</h3>
+            <div class="exp-role">Prácticas profesionales — Mantenimiento y soporte IT</div>
+            <div class="exp-loc">Sanchinarro, Madrid</div>
+            <ul>
+              <li>Mantenimiento preventivo y correctivo de equipos informáticos.</li>
+              <li>Instalación y configuración de software y hardware.</li>
+              <li>Soporte técnico a usuarios internos.</li>
+            </ul>
+          </article>
+
+          <article class="exp-card glass">
+            <div class="exp-date">05/2019 — 08/2022</div>
+            <h3>Orgil Baño S.L.U.</h3>
+            <div class="exp-role">Operario de almacén y producción</div>
+            <div class="exp-loc">Arganda del Rey, Madrid</div>
+            <ul>
+              <li>Gestión de almacén, control de inventario y apoyo logístico.</li>
+              <li>Coordinación de entradas y salidas de mercancía.</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMACION -->
+  <section id="formacion">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Formación</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card glass reveal">
+          <span class="edu-level">Nivel 5 EQF-MEC</span>
+          <h3>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</h3>
+          <div class="edu-school">IES Francisco de Goya · La Elipa, Madrid</div>
+          <div class="edu-date">09/2024 — 06/2026</div>
+          <div class="edu-field">Desarrollo y análisis de software y aplicaciones.</div>
+        </div>
+        <div class="edu-card glass reveal">
+          <span class="edu-level">Nivel 4 EQF-MEC</span>
+          <h3>Técnico en Sistemas Microinformáticos y Redes</h3>
+          <div class="edu-school">IES Villablanca · Vicálvaro, Madrid</div>
+          <div class="edu-date">09/2022 — 06/2024</div>
+          <div class="edu-field">Uso de computadores y redes.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES TECNICAS -->
+  <section id="habilidades">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Habilidades técnicas</h2>
+        <p>Lo que sé usar hoy, agrupado por área. Sigo ampliando esta lista con cada proyecto.</p>
+      </div>
+      <div class="carousel-shell reveal">
+        <div class="carousel-arrows">
+          <button class="arrow-btn" data-dir="-1" data-target="skill" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="arrow-btn" data-dir="1" data-target="skill" aria-label="Siguiente"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+        </div>
+        <div class="carousel-track" id="skillTrack">
+
+          <div class="skill-card glass">
+            <div class="skill-icon">💻</div>
+              <h3>Sistemas operativos</h3>
+                <ul><li>Windows</li><li>Linux (básico)</li></ul>
+          </div>
+
+          <div class="skill-card glass">
+            <div class="skill-icon">🗂️</div>
+              <h3>ERP / Gestión</h3>
+                <ul><li>Odoo — usuarios y permisos</li><li>Automatizaciones</li><li>Desarrollo de módulos</li></ul>
+          </div>
+
+          <div class="skill-card glass">
+            <div class="skill-icon">⌨️</div>
+              <h3>Programación</h3>
+                <ul><li>Java</li><li>Python</li><li>SQL</li><li>XML/JSON</li></ul>
+          </div>
+
+          <div class="skill-card glass">
+            <div class="skill-icon">🌐</div>
+              <h3>Redes y hardware</h3>
+                <ul><li>Instalación y configuración LAN/WAN</li><li>Mantenimiento de hardware</li><li>Soporte IT</li></ul>
+          </div>
+
+          <div class="skill-card glass">
+            <div class="skill-icon">🛠️</div>
+              <h3>Soporte remoto</h3>
+                <ul><li>AnyDesk</li><li>NinjaOne</li></ul>
+          </div>
+
+          <div class="skill-card glass">
+            <div class="skill-icon">📎</div>
+              <h3>Ofimática</h3>
+                <ul><li>Microsoft Office</li><li>Google Workspace</li></ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div style="margin-top:64px;" class="reveal">
+        <div class="section-head" style="margin-bottom:24px;">
+          <h2 style="font-size:clamp(22px,3vw,28px);">Capacidades</h2>
+        </div>
+        <div class="cloud">
+          <span class="pill">Resolución de problemas</span>
+          <span class="pill">Trabajo en equipo</span>
+          <span class="pill">Atención al detalle</span>
+          <span class="pill">Proactivo</span>
+          <span class="pill">Escucha activa</span>
+          <span class="pill">Responsable</span>
+          <span class="pill">Soporte técnico</span>
+          <span class="pill">Odoo / ERP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IDIOMAS -->
+  <section id="idiomas">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Idiomas</h2>
+      </div>
+      <div class="lang-list reveal">
+        <div class="lang-row">
+          <div class="lang-top"><span>Español</span><span class="lvl">Nativo</span></div>
+          <div class="lang-bar"><div class="lang-fill" data-width="100"></div></div>
+        </div>
+        <div class="lang-row">
+          <div class="lang-top"><span>Inglés</span><span class="lvl">Básico-intermedio</span></div>
+          <div class="lang-bar"><div class="lang-fill" data-width="45"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="wrap">
+      <div class="contact-card glass reveal">
+        <div>
+          <h2>¿Buscas un desarrollador junior con ganas de aprender?</h2>
+          <p>Listo para incorporarme. Escríbeme y hablamos.</p>
+        </div>
+        <div class="contact-list">
+          <div class="contact-item">
+            <div><span class="label">Email</span>franciscolozanoneira@gmail.com</div>
+            <button data-copy="franciscolozanoneira@gmail.com">Copiar</button>
+          </div>
+          <div class="contact-item">
+            <div><span class="label">Teléfono</span>(+34) 635 012 104</div>
+            <button data-copy="+34635012104">Copiar</button>
+          </div>
+          <div class="contact-item">
+            <div><span class="label">Ubicación</span>Arganda del Rey, Madrid</div>
+          </div>
+          <div class="contact-item">
+            <div><span class="label">Curriculum vitae</span>Descargar CV</div>
+            <a href="CV_Francisco_Lozano_Neira.pdf" download="CV_Francisco_Lozano_Neira.pdf">Descargar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>Francisco Lozano Neira — Madrid, España</footer>
+
+<script src="Script/script.js"></script>
+
+</body>
+</html>
